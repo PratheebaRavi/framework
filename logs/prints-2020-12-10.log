@@ -1,0 +1,8 @@
+19:23:07.294 [main] INFO  resources.base - Fail: Wrong collections url
+19:23:15.032 [main] INFO  resources.base - Fail: Wrong collab url
+19:39:52.699 [main] INFO  resources.base - Driver is initialized
+19:40:01.789 [main] INFO  resources.base - Navigated to Home page
+19:40:25.100 [main] INFO  resources.base - Pass: URL is correct
+19:40:43.575 [main] INFO  resources.base - Successfully entered text
+19:40:43.575 [main] INFO  resources.base - Text entered
+19:40:54.057 [main] INFO  resources.base - Upsell product added to cart

@@ -1,0 +1,8 @@
+22:04:38.693 [main] INFO  resources.base - Increased cart
+22:04:43.774 [main] INFO  resources.base - Decreased cart
+22:04:48.842 [main] INFO  resources.base - Removed an item from cart
+22:04:59.441 [main] INFO  resources.base - Upsell product added to cart
+22:05:04.520 [main] INFO  resources.base - Upsell product increased
+22:05:09.687 [main] INFO  resources.base - Upsell product decreased
+22:05:14.771 [main] INFO  resources.base - Upsell product removed from cart
+22:05:19.830 [main] INFO  resources.base - Upsell product added to cart again

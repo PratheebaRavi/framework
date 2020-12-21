@@ -2,29 +2,86 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 <listeners>
-<listener class-name="Academy.Listeners"/>
+<listener class-name="inkbox.Listeners"/>
 </listeners>
 
-  <test name="Validating User login">
+<test name="Best Seller View all with Upsell">
     <classes>
-      <class name="Academy.HomePage"/>
+      <class name="inkbox.GUBestSeller"/>
           </classes>
       </test>
       
-    <test name="Validating title in the Page">
+      <test name="Best Seller Homepage No Upsell">
+    <classes>
+      <class name="inkbox.GUBestSellerHPNoUpsell"/>
+          </classes>
+      </test>
+      
+         <test name="Guest users bundle with upsell-view all">
          <classes>
-      <class name="Academy.validateTitle"/>
+      <class name="inkbox.GuestUserBundles"/>
        </classes>
       </test>
-       <test name="App Testing">
+      
+      <test name="Guest users bundle without upsell-homepage">
          <classes>
-      <class name="Academy.AppTest"/>
+      <class name="inkbox.GuestUserBundlesHPNoUpsell"/>
        </classes>
       </test>
-            <test name="Validating navigation Bar">
-         <classes>
-      <class name="Academy.validateNavigationBar"/>
-   </classes>
+      <test name="Bundles PDP with Upsell">
+    <classes>
+      <class name="inkbox.BundlesPDPwithUpsell"/>
+          </classes>
       </test>
+      
+        <test name="Bundles PDP without Upsell">
+    <classes>
+      <class name="inkbox.BundlesPDP"/>
+          </classes>
+      </test>
+      
+ <test name="Validating error messages in cart checkout">
+    <classes>
+      <class name="inkbox.GuestUserSearch"/>
+          </classes>
+      </test>
+      
+           <test name="Guest users Just dropped with upsell-view all">
+         <classes>
+      <class name="inkbox.GUJustDropped"/>
+       </classes>
+      </test>
+      
+      <test name="Guest users Just dropped without upsell-homepage">
+         <classes>
+      <class name="inkbox.GUJustDroppedHPNoUpsell"/>
+       </classes>
+      </test>
+      
+      
+          <test name="PDP">
+         <classes>
+      <class name="inkbox.PDP"/>
+       </classes>
+      </test>
+      
+    <test name="Guest user search - positive flow">
+         <classes>
+      <class name="inkbox.PositiveGuestUserSearch"/>
+       </classes>
+      </test>
+      
+ 	<test name="User subscription">
+         <classes>
+      <class name="inkbox.Subscribe"/>
+       </classes>
+      </test>
+      
+      <test name="Sale page">
+         <classes>
+      <class name="inkbox.Sales"/>
+       </classes>
+      </test>
+      
    <!-- Test -->
 </suite> <!-- Suite -->

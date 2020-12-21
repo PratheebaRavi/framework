@@ -1,0 +1,7 @@
+16:08:02.722 [main] INFO  resources.base - Valid email & Password
+16:10:15.116 [main] INFO  resources.base - Valid email & invalid Password
+16:10:27.233 [main] INFO  resources.base - Invalid email & valid Password
+16:10:42.600 [main] INFO  resources.base - Invalid email & valid Password
+16:10:56.117 [main] INFO  resources.base - Valid email & Password
+16:44:20.669 [main] INFO  resources.base - Valid email & invalid Password
+16:44:31.561 [main] INFO  resources.base - Invalid email & valid Password

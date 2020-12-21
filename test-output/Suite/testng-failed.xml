@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="Academy.Listeners"/>
+    <listener class-name="inkbox.Listeners"/>
   </listeners>
-  <test thread-count="5" name="Validating title in the Page(failed)">
+  <test thread-count="5" name="PDP(failed)">
     <classes>
-      <class name="Academy.validateTitle">
+      <class name="inkbox.PDP">
         <methods>
-          <include name="validateAppTitle"/>
-          <include name="initialize"/>
           <include name="teardown"/>
+          <include name="validatePDP"/>
+          <include name="initialize"/>
         </methods>
-      </class> <!-- Academy.validateTitle -->
+      </class> <!-- inkbox.PDP -->
     </classes>
-  </test> <!-- Validating title in the Page(failed) -->
+  </test> <!-- PDP(failed) -->
 </suite> <!-- Failed suite [Suite] -->

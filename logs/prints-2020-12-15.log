@@ -1,0 +1,8 @@
+18:09:13.705 [main] INFO  resources.base - Successfully entered text
+18:09:13.729 [main] INFO  resources.base - Text entered
+18:09:24.206 [main] INFO  resources.base - Increased cart
+18:09:29.359 [main] INFO  resources.base - Decreased cart
+18:09:37.848 [main] INFO  resources.base - Added 2nd product to cart
+18:09:43.009 [main] INFO  resources.base - Removed an item from cart
+18:09:48.197 [main] INFO  resources.base - Upsell product added to cart
+18:09:53.349 [main] INFO  resources.base - Upsell product increased

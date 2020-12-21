@@ -9,10 +9,14 @@ public class LandingPage {
 	
 	public WebDriver driver;
 	
-	By signin=By.cssSelector("a[href*='sign_in']");
-	By title=By.cssSelector(".text-center>h2");
-	By NavBar=By.cssSelector(".nav.navbar-nav.navbar-right>li>a");
+	//driver.switchTo().frame(driver.findElement(By.className("ub-emb-iframe-wrapper.ub-emb-visible"))); 
+	//By closepopup=By.cssSelector("ub-emb-close");
 	
+	//driver.switchTo().defaultContent();
+	
+	By jointhefam=By.cssSelector("#header-user > button");
+
+	By clicksearch=By.id("search-field-input");
 	
 	
 	
@@ -21,15 +25,16 @@ public class LandingPage {
 		// TODO Auto-generated constructor stub
 		
 		this.driver=driver;
-		
+		driver.manage().window().maximize();
 	}
 
-
-
-
-	public LoginPage getLogin()
+	
+	public LoginPage getLogin() 
 	{
-		 driver.findElement(signin).click();
+		//driver.findElement(closepopup).click(); 
+		driver.navigate().refresh();
+		//wait(3000);
+		 driver.findElement(jointhefam).click();
 		 LoginPage lp=new LoginPage(driver);
 		 return lp;
 		 
@@ -37,15 +42,15 @@ public class LandingPage {
 		 
 		 
 	}
-	public WebElement getNavigationBar()
-	{
-		return driver.findElement(NavBar);
-	}
-	public WebElement getTitle()
-	{
-		return driver.findElement(title);
-	}
-	
+//	public WebElement getNavigationBar()
+//	{
+//		return driver.findElement(signupemail);
+//	}
+//	public WebElement getTitle()
+//	{
+//		return driver.findElement(signuppwd);
+//	}
+//	
 	
 	
 }

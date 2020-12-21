@@ -1,0 +1,8 @@
+20:50:17.414 [main] INFO  resources.base - Navigated to Home page
+20:50:36.566 [main] INFO  resources.base - Pass: URL is correct
+20:50:53.607 [main] INFO  resources.base - Successfully entered text
+20:50:53.607 [main] INFO  resources.base - Text entered
+20:51:03.832 [main] INFO  resources.base - Upsell product added to cart
+20:51:16.920 [main] INFO  resources.base - Fail:
+20:51:22.110 [main] INFO  resources.base - Clicked checkout
+20:51:46.684 [main] INFO  resources.base - Driver is initialized

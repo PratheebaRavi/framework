@@ -20,7 +20,7 @@ public WebDriver initializeDriver() throws IOException
 {
 	
  prop= new Properties();
-FileInputStream fis=new FileInputStream("C:\\Users\\ravic\\eclipse-workspace\\E2E\\src\\main\\java\\Fwork\\E2E\\data.properties");
+FileInputStream fis=new FileInputStream("/Users/ibck-al-016/Documents/E2EProject/src/main/java/resources/data.properties");
 
 prop.load(fis);
 String browserName=prop.getProperty("browser");
@@ -29,7 +29,7 @@ System.out.println(browserName);
 if(browserName.equals("chrome"))
 {
 	System.setProperty("webdriver.chrome.driver",
-			"C:\\Users\\ravic\\Downloads\\chromedriver_win32\\chromedriver.exe");
+			"//Users//ibck-al-016//Downloads//chromedriver");
 	 driver = new ChromeDriver();
 		//execute in chrome driver
 	

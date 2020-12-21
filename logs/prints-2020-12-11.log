@@ -1,0 +1,7 @@
+08:43:12.389 [main] INFO  resources.base - Navigated to Home page
+08:43:42.250 [main] INFO  resources.base - Fail: search term, url and results mismatch
+08:45:12.184 [main] INFO  resources.base - Driver is initialized
+08:45:21.574 [main] INFO  resources.base - Navigated to Home page
+08:45:49.093 [main] INFO  resources.base - Fail: search term, url and results mismatch
+08:47:28.097 [main] INFO  resources.base - Driver is initialized
+08:47:36.737 [main] INFO  resources.base - Navigated to Home page
